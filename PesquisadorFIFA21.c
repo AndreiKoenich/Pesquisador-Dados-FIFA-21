@@ -167,13 +167,12 @@ int hash(char *nome, int M) /* Funcao de hashing CRC32 modificada. */
 	static int ini = 0;
 
 	if (!ini) /* Gerar tabela CRC32 "aleatoriamente" apenas uma vez na execucao. */
-    {
+    	{
 		srand(0xdeadbeef); /* Usa sempre a mesma seed. */
 
 		for (int j = 0; j < 256; j++)
-        {
 			Table[j] = rand();
-		}
+
 		ini = 1;
 	}
 
