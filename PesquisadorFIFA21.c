@@ -602,7 +602,7 @@ void bubblesortStruct(COMANDO2 v[], int dimensao) /* Realiza a ordenacao de joga
         }
 }
 
-void swapStruct (COMANDOS134 v[], int i, int j) /* Funcao auxiliar da ordenacao decrescente com base no rating global dos jogadores, com quick sort. */
+void swapStruct (COMANDOS134 v[], int i, int j) /* Funcao auxiliar da ordenacao crescente ou decrescente com base no rating global dos jogadores, com quick sort. */
 {
     COMANDOS134 aux = v[i];
     v[i] = v[j];
@@ -645,7 +645,7 @@ void quickSortStructDec(COMANDOS134 v[], int p, int r)  /* Realiza a ordenacao d
     }
 }
 
-int pHoareStructCresc(COMANDOS134 v[], int p, int r) /* Funcao auxiliar da ordenacao decrescente com base no rating global dos jogadores, com quick sort. */
+int pHoareStructCresc(COMANDOS134 v[], int p, int r) /* Funcao auxiliar da ordenacao crescente com base no rating global dos jogadores, com quick sort. */
 {
     COMANDOS134 pivot = v[p]; /* Seleciona o primeiro elemento do vetor como pivo da ordenacao. */
     int i = p - 1, j = r + 1;
@@ -671,7 +671,7 @@ int pHoareStructCresc(COMANDOS134 v[], int p, int r) /* Funcao auxiliar da orden
     }
 }
 
-void quickSortStructCresc(COMANDOS134 v[], int p, int r)  /* Realiza a ordenacao de jogadores com base no seu rating em ordem decrescente. */
+void quickSortStructCresc(COMANDOS134 v[], int p, int r)  /* Realiza a ordenacao de jogadores com base no seu rating em ordem crescente. */
 {
     if (p < r)
     {
