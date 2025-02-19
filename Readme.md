@@ -7,7 +7,6 @@ Para informações detalhadas a respeito desse projeto, consulte o arquivo "Desc
 Para executar esse projeto, siga os passos abaixo:
 
 1 - Baixe os arquivos "players.csv", "rating.csv" e "tags.csv" no link 
-
 https://drive.google.com/drive/folders/1-DBf9Vbrfn7FiaGzWunra5dp17RthGcD?usp=drive_link
 
 2 - Com os três arquivos .csv presentes no mesmo diretório do "Makefile" e das pastas "Headers" e "Sources", execute o comando "make" no terminal do Linux
