@@ -14,4 +14,4 @@ https://drive.google.com/drive/folders/1-DBf9Vbrfn7FiaGzWunra5dp17RthGcD?usp=dri
 
 3 - Execute o comando "./PesquisadorFIFA21" no terminal do Linux
 
-4 - Aguarde o carregamento de todas as estruturas de dados do projeto, que deve levar menos de um minuto. Após isso, o menu será exibido, permitindo o início das operações
+4 - Aguarde o carregamento de todas as estruturas de dados do projeto, que deve levar menos de um minuto (geralmente, menos de trinta segundos). Após isso, o menu será exibido, permitindo o início das operações
